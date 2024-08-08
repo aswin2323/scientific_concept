@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Poppins", sans-serif;
+    /* font-weight: 400;
+    font-style: normal; */
+  }
+  
+nav{
+    margin: 1rem 20rem;
+}
+a{
+    text-decoration: none;
+    background-color: rgb(119, 197, 211);
+    color: blue; 
+    padding: 10px 3rem; 
+    border-radius: 10px 10px;
+}
+main{
+    max-width: 1000px;
+    /* text-align: center; */
+    margin-inline: auto;
+    background-color: rgb(242, 248, 246);
+    font-size: larger;
+    border: 1px solid lightgrey;
+    border-radius: 10px 10px;
+    padding: 2rem 5rem;
+    
+}
+h1{
+    font-size: xx-large;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+h2,h3,h4,h5,h6{
+    font-size: x-large;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.custom-head{
+    font-size: x-large;
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: inline-block;
+}
+img{
+    float: left;
+    width: 300px;
+    height: 300px;
+    padding: 2.5rem;
+}
+.theory-section{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.special{
+    clear: left;
+}
+/* .general{ */
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    clear: right;
+} */
+
+
+.img-rel{
+    float: right;
+    width: 400px;
+    height: 550px;
+    padding: 2rem;
+}
+p{
+    line-height: 1.5;
+    padding-bottom: 1rem;
+}
+
+b , strong{
+    color: blueviolet;
+}
